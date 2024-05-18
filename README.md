@@ -15,3 +15,11 @@ The code description are provided within the files.
 - agentic_rag_customization.ipynb: the notebook for complete code on developing the agentic rag to answer user queries from a pdf file.
 - app.py: finally build a Application with Gradio. This is build on top of `agentic_rag_customization.ipynb` so all the necessary functions are present in `utils.py`.
 
+# How to RUN
+- All the work is developed in LINUX env so we need a LINUX system with atleast 8GB RAM.
+- Create a Virtual Env
+- Install libraries with `make install`
+- Download Ollama and Start Server with `make ollama_download`
+- Pull models required for tasks with `make models`
+- To Start Graio App run `python app.py`
+
