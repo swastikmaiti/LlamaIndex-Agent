@@ -3,6 +3,13 @@ building a agentic rag with llamaindex to answer user queries with a specialized
 
 ![alt text](https://github.com/swastikmaiti/AGENTIC-RAG/blob/60c5c4efca56eb535901cbed9b4d2d577712c9b4/agentic_rag-1.png)
 
+# Frameworks
+- ***Agentic-RAG:*** Llama Index
+- ***App:*** Gradio
+- ***LLM:*** Phi3 3.8B
+- ***Embedding:*** nomic-embed-text
+- ***Local LLM:*** Ollama
+
 
 # Introduction 
 RAG is a wonderful solution to make LLM even smarter with Memeory. However RAG is a single end2end pipeline. User will have various kind of queries which will 
@@ -10,7 +17,9 @@ require diffrent kind of processing with a specialized pipeline. This is where A
 fireup one or more of the pipelines to answer user queries.
 
 For concept on RAG checkout the [Repo](https://github.com/swastikmaiti/digital_research_guide.git) and [App](https://huggingface.co/spaces/SwastikM/RA)
-For Docker Implementation of the Application Checkout the [Repo](https://github.com/swastikmaiti/AGENTIC-RAG-DOCKER.git). 🚛
+
+# Docker 
+For Docker Implementation of the Application Checkout the [GitHub Repo](https://github.com/swastikmaiti/AGENTIC-RAG-DOCKER.git). 🚛
 
 
 # Description
@@ -36,5 +45,6 @@ The code description are provided within the files.
 - To Start Graio App run `python app.py`
 
 # Acknowledgements
-- Thanks to DeepLearning.AI and LlamaIndex for the wonderful [course](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/?utm_campaign=llamaindexC2-launch&utm_medium=headband&utm_source=dlai-homepage) 
+- Thanks to DeepLearning.AI and LlamaIndex for the wonderful [course](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/?utm_campaign=llamaindexC2-launch&utm_medium=headband&utm_source=dlai-homepage)
+- Thanks to `Microsoft` for open source Phi3
 
