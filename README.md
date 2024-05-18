@@ -10,6 +10,8 @@ require diffrent kind of processing with a specialized pipeline. This is where A
 fireup one or more of the pipelines to answer user queries.
 
 For concept on RAG checkout the [Repo](https://github.com/swastikmaiti/digital_research_guide.git) and [App](https://huggingface.co/spaces/SwastikM/RA)
+For Docker Implementation of the Application Checkout the [Repo](https://github.com/swastikmaiti/AGENTIC-RAG-DOCKER.git). 🚛
+
 
 # Description
 In this work we build a Agentic RAG with llamaindex. Retrieval Augmented Generation (RAG) is one of the most widespread usecase of LLM.
