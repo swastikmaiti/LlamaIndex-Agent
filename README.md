@@ -1,6 +1,9 @@
 # AGENTIC-RAG
 building a agentic rag with llamaindex to answer user queries with a specialized workflow pipeline.
 
+![alt text](https://github.com/swastikmaiti/AGENTIC-RAG/blob/60c5c4efca56eb535901cbed9b4d2d577712c9b4/agentic_rag-1.png)
+
+
 # Introduction 
 RAG is a wonderful solution to make LLM even smarter with Memeory. However RAG is a single end2end pipeline. User will have various kind of queries which will 
 require diffrent kind of processing with a specialized pipeline. This is where AGENTIC-RAG comes into action. A smart AGENT takes dicesion based on user queries and avaialble pipelines to 
