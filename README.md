@@ -23,3 +23,6 @@ The code description are provided within the files.
 - Pull models required for tasks with `make models`
 - To Start Graio App run `python app.py`
 
+# Acknowledgements
+- Thanks to DeepLearning.AI and LlamaIndex for the wonderful [course](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/?utm_campaign=llamaindexC2-launch&utm_medium=headband&utm_source=dlai-homepage) 
+
