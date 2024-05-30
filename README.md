@@ -19,8 +19,6 @@ RAG is a wonderful solution to make LLM even smarter with Memeory. However RAG i
 require diffrent kind of processing with a specialized pipeline. This is where AGENTIC-RAG comes into action. A smart AGENT takes dicesion based on user queries and avaialble pipelines to 
 fireup one or more of the pipelines to answer user queries.
 
-For concept on RAG checkout the [Repo](https://github.com/swastikmaiti/digital_research_guide.git) and [App](https://huggingface.co/spaces/SwastikM/RA)
-
 # Docker 
 For Docker Implementation of the Application Checkout the [GitHub Repo](https://github.com/swastikmaiti/AGENTIC-RAG-DOCKER.git). 🚛
 
