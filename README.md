@@ -1,5 +1,8 @@
 # AGENTIC-RAG
-building a agentic rag with llamaindex to answer user queries with a specialized workflow pipeline.
+
+An Llama Index based Agentic-RAG system to perform PDF Question-Answering. The Agent can choose from `summarization query engine` or `vector query engine` to generate response. 
+The LLM used is `phi3` 3.8B.
+
 
 ![alt text](https://github.com/swastikmaiti/AGENTIC-RAG/blob/60c5c4efca56eb535901cbed9b4d2d577712c9b4/agentic_rag-1.png)
 
