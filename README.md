@@ -13,6 +13,13 @@ The LLM used is `phi3` 3.8B.
 - ***Embedding:*** nomic-embed-text
 - ***Local LLM:*** Ollama
 
+# File Structure
+- ***llamaindex_basic.ipynb:*** A simple introduction to Llama Index Agentic RAG concepts and terminologies.
+- ***agentic_rag_intro.ipynb:*** This notebook contains codes and step by step explanation of how to build an Agentic-RAG with Llama Index.
+- ***agentic_rag_customization.ipynb*** Customizing the Agentic-RAG system to perform pdf Q/A with Phi3
+- ***utils.py*** Contains all the functions in one place.
+- ***app.py*** Creating Gradio application.
+  
 
 # Introduction 
 RAG is a wonderful solution to make LLM even smarter with Memeory. However RAG is a single end2end pipeline. User will have various kind of queries which will 
@@ -41,7 +48,7 @@ The code description are provided within the files.
 - All the work is developed in LINUX env so we need a LINUX system with atleast 8GB RAM.
 - Create a Virtual Env
 - Install libraries with `make install`
-- Download Ollama and Start Server with `make ollama_download`
+- Download Ollama and start Ollama server with `make ollama_download` on a new CLI as this will block the CLI.
 - Pull models required for tasks with `make models`
 - To Start Graio App run `python app.py`
 
