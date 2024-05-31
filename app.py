@@ -19,6 +19,18 @@ def submit():
     return {input_box: gr.Textbox(visible=True)}
 
 with gr.Blocks() as demo:
+
+    gr.Markdown(
+    """
+    # Phi3 3.8B
+
+    ## Agentic RAG
+
+    - ***LLM:*** Phi3 Mini
+    - ***Embedding:*** nomic-embed-text
+    - ***Framework:*** Llama Index 
+
+    """)
     
     state_var = gr.State([])
 
