@@ -26,8 +26,9 @@ def pre_processing(reader):
     cleaned_string = cleaned_string.lower()
 
     start_index = cleaned_string.find(first_section)
-    end_index = cleaned_string.rindex(ignore_after)
-    cleaned_string = cleaned_string[start_index:end_index]
+    end_index = cleaned_string.rfind(ignore_after)
+    if start_index!=-1 and end_index!=-1:
+        cleaned_string = cleaned_string[start_index:end_index]
 
     sentence_list = cleaned_string.split('. ')
     context_list = []
